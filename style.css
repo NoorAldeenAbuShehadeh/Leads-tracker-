@@ -1,0 +1,80 @@
+body{
+    max-width: 400px;
+}
+#input-el{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    min-width: 400px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 5px;
+    padding:8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    border: 1px solid rebeccapurple ;
+    color: white;
+}
+#delete-btn{
+    background-color: white;
+    color: rebeccapurple;
+}
+ul{
+    list-style: none;
+    padding : 0px 0px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-left: 1px;
+}
+
+li a{
+    color: #3A0CA3;
+
+}
+#check-el{
+    margin-top:15px ;
+    transform: scale(1.2);
+}
+label{
+    margin-top:15px ;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3A0CA3;
+}
+.select{
+    transform: scale(1.2);
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+    
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
